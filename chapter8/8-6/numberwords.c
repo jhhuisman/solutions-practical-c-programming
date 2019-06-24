@@ -35,6 +35,9 @@ int main()
 char *set_number_word(char *number_word, int number)
 {
 	switch (number) {
+		case 0:
+			strcpy(number_word, "zero");
+			break;
 		case 1:
 			strcpy(number_word, "one");
 			break;
