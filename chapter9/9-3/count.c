@@ -4,10 +4,10 @@ int count(int number, int *array, int length);
 
 int main()
 {
-	int array[4] = {5, 4, 3, 4};
+	int array[5] = {5, 4, 4, 3, 4};
 	int number = 4;
 
-	printf("Array contains %d times the number %d\n", count(number, array, 4), number);
+	printf("Array contains %d times the number %d\n", count(number, array, 5), number);
 
 	return 0;
 }
@@ -25,13 +25,8 @@ int main()
  */
 int count(int number, int *array, int length)
 {
-	int number_count = 0; /* intialize number count, defaults 0 */
-	int counter; /* counter used to loop array elements */
+	if (length == 0)
+		return 0;
 
-	for (counter = 0; counter < length; ++counter) {
-		if (array[counter] == number)
-			++number_count;
-	}
-
-	return number_count;
+	return (*array == number) + count(number, array+1, length-1);
 }
