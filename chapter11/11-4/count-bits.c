@@ -6,8 +6,6 @@ int main()
 {
 	int test_integer = 14; /* test integer to count bits */
 
-	printf("## sizeof(int) = %ld\n", sizeof(int));
-
 	printf("Number of bits set in %d: %d\n", test_integer, count_integer_bits(test_integer));
 
 	return 0;
