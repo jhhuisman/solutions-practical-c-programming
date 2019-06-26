@@ -8,7 +8,7 @@ char graphics[X_SIZE / 8][Y_SIZE]; /* the graphics data */
 
 #define SET_BIT(x,y) graphics[(x)/8][y] |= (0x80 >> ((x)%8))
 
-char *set_square(void); /* sets bits for 10x10 square */
+void set_square(void); /* sets bits for 10x10 square */
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
  * Return
  * 	pointer graphics array
  */
-char *set_square(void)
+void set_square(void)
 {
 	int square_width;
 	int square_height;
