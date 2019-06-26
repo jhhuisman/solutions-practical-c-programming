@@ -1,0 +1,24 @@
+Positives: Counts number of positive and negative numbers
+
+June 20 2019
+
+Jacob Huisman
+
+Positives is a program that takes a series of numbers and counts the number and negative numbers.
+
+When the program is run it will prompt and ask for a series of numbers.
+After the user input, the program will count the number of positive and negative values and display the result.
+
+For example (user input is between *stars*):
+*positives*
+Enter a series of numbers, press q when you are done.
+*5*
+*-9*
+*123*
+*243*
+*-21*
+*q*
+
+Result:
+3 positive number(s)
+2 negative number(s)

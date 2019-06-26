@@ -1,0 +1,34 @@
+Count Days: Counts the number of days between two dates
+
+June 19 2019
+
+Jacob Huisman
+
+Count Days is a program that counts the number of days between two given dates.
+
+When the program is run it will promt and ask for two dates.
+It will also display the expected date format for input.
+After the user input, the program will calculate and display the number of dates between the two dates.
+
+The following date format is valid and expected:
+d-m-Y i.e. 24-12-2019
+
+The program will display a error message when the date format is invalid. After the message it will re prompt for input.
+
+For example (user input is between *stars*):
+*countdays*
+Valid date format: dd-mm-yyyy
+
+Enter the first date: *10-12-2019*
+Enter the second date: *12-12-2019*
+There are 2 day(s) between 10-12-2019 and 12-12-2019.
+
+Invalid input example
+*countdays*
+Valid date format: dd-mm-yyyy
+
+Enter the first date: *2019/12/10*
+Invalid date, try again.
+Enter the first date: *10-12-2019*
+Enter the second date: *12-12-2019*
+There is/are 2 day(s) between 10-12-2019 and 12-12-2019.

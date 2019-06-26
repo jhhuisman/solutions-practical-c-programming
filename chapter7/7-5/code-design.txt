@@ -1,0 +1,3 @@
+Prompt for number
+Check if number is prime
+Display result

@@ -1,0 +1,33 @@
+Unit Converter: Converts English units to metric
+
+June 18 2019
+
+Jacob Huisman
+
+Unit Converter is a program that converts English units to units.
+i.e. miles to kilometers, gallons to liters etc.
+
+When the program is run it will promt and ask for the unit type abbreviation and number.
+It will also list the valid unit type abbreviations.
+After the user input, the program will convert the unit to metric and display the result.
+
+The following unit types are valid:
+
+Abbreviation   Unit type   Corresponding metric   Metric abbreviation
+ft             foot        metre                  m
+mi             miles       kilometers             km
+lb             pounds      kilograms              kg
+gal            gallons     liters                 ltr
+F              Fahrenheit  Celcius 				  C
+
+For example (user input is between *stars*):
+*unitconverter*
+Valid unit type abbreviations:
+ft    (foot)
+mi    (miles)
+lb    (pounds)
+gal   (gallon)
+F     (Fahrenheit)
+
+Enter the unit type abbreviation and number: *10 mi*
+16.09 km

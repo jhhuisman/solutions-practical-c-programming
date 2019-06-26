@@ -1,0 +1,5 @@
+Prompt number and unit type
+Validate input
+Calculate required time
+Convert time to appropriate unit
+Display result

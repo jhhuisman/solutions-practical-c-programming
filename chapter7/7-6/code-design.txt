@@ -1,0 +1,3 @@
+Prompt for series of numbers
+Count number of positive and negative values
+Display result

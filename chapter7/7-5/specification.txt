@@ -1,0 +1,15 @@
+Is prime: Checks if a number is prime
+
+June 20 2019
+
+Jacob Huisman
+
+Is prime is a program that checks whether or not a number is prime.
+
+When the program is run it will prompt and ask for a number;
+After the user input, the program will check whether or not the number is prime and display the result.
+
+For example (user input is between *stars*):
+*isprime*
+Enter a number: *5*
+5 is a prime number

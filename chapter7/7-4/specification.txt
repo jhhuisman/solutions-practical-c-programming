@@ -1,0 +1,27 @@
+Add tax: Adds 8% sales tax to a given amount
+
+June 19 2019
+
+Jacob Huisman
+
+Add tax is a program that adds 8% sales tax to a given amount returns the result, rounded to pennies.
+
+When the program is run it will prompt and ask for the amount in dollars.
+After the user input, the program will calculate and display the tax amount and total amount.
+
+The program will also validate the user input.
+When the input is invalid a error message will be shown and the user will have to reenter the amount.
+
+For example (user input is between *stars*):
+*addtax*
+Enter the amount in dollars: *50.50*
+The 8% sales tax is $ 4.04
+The total amount with tax is $ 54.54
+
+Example of invalid input:
+*addtax*
+Enter the amount in dollars: *dollar*
+Error: invalid input amount
+Enter the amount in dollars: *50.50*
+The 8% sales tax is $ 4.04
+The total amount with tax is $ 54.54

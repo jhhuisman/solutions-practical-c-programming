@@ -1,0 +1,49 @@
+Transtime: Calculates the time required to send a file by serial transmission
+
+June 20 2019
+
+Jacob Huisman
+
+Transtime is a program that calculates the time required to send a file by serial transmission.
+
+When the program is run it will prompt and ask the file size.
+After the user input, the program will calculate and display the time needed to send the file.
+
+The user has to enter the file size as a number and also the unit type.
+Valid unit types are:
+- kB
+- MB
+- GB
+
+The program will validate the unit type and display an error message when the unit type is invalid.
+
+The result will be returned in an appriopriate time unit.
+i.e. a 400 MB file will take days, so the result will be in number of days.
+
+For example (user input is between *stars*):
+*transtime*
+Input format:
+number type
+
+Valid unit types:
+kB (note the smaller case k)
+MB
+GB
+
+Enter the file size and unit type: *400 MB*
+Required time: x days
+
+Example of invalid input:
+*transtime*
+Input format:
+number type
+
+Valid unit types:
+kB (note the smaller case k)
+MB
+GB
+
+Enter the file size and unit type: *400 kg*
+Error: invalid input
+Enter the file size and unit type: *400 MB*
+Required time: x days

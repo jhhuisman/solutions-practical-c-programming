@@ -1,0 +1,4 @@
+Prompt for amount
+Validate input
+Calculate tax and total amounts
+Display result

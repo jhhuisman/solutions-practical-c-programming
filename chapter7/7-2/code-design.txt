@@ -1,0 +1,6 @@
+Prompt for first date
+Validate first date
+Prompt for second date
+Validate second date
+Calculate difference in days
+Display result
