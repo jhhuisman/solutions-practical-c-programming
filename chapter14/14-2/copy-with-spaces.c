@@ -14,8 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <fcntl.h>
-#include <unistd.h>
 
 #define BUFFER_SIZE (16 * 1024) /* 16K buffer */
 
