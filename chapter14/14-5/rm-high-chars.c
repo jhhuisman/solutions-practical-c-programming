@@ -11,7 +11,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-char filename[20]; /* filename source file */
 char src_filename[20];    /* filename source file to be copied */
 char dest_filename[20];   /* destination filename */
 
