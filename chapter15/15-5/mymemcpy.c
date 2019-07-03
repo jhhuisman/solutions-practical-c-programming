@@ -9,7 +9,7 @@ int main()
 
 	mymemcpy(destination, source, (sizeof(source) / sizeof(source[0])));
 
-	printf("## %s\n", destination);
+	printf("Result: %s\n", destination);
 
 	return 0;
 }
