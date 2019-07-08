@@ -3,6 +3,7 @@
 
 struct linked_list {
 	int number;
+	struct linked_list *previous;
 	struct linked_list *next;
 };
 
@@ -38,6 +39,7 @@ void add_item(int number)
 		memory_error();
 
 	new_item_ptr->number = number;
+	new_item_ptr->previous = NULL;
 	new_item_ptr->next = NULL;
 
 	/* Set head_ptr if list is empty */
@@ -52,8 +54,9 @@ void add_item(int number)
 	while (previous_ptr->next != NULL)
 		previous_ptr = previous_ptr->next;
 
-	/* Add next pointer on last item to new item */
+	/* Add next pointer on last item to new item and vice versa */
 	previous_ptr->next = new_item_ptr;
+	new_item_ptr->previous = previous_ptr;
 }
 
 void print_list(void)
