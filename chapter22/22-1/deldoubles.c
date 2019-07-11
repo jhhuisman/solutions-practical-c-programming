@@ -7,8 +7,8 @@ int main()
 	FILE *fileptr;
 	char *line;
 	size_t len;
-	char *token; 
-	char *prev_token; 
+	char *word; 
+	char *prev_word; 
 
 	line = NULL;
 	len = 0;
@@ -21,17 +21,17 @@ int main()
 	}
 
 	while (getline(&line, &len, fileptr) != -1) {
-		token = strtok(line, " "); 
-		prev_token = NULL;
+		word = strtok(line, " "); 
+		prev_word = NULL;
 
-		while (token != NULL) { 
-			if (prev_token == NULL)
-				printf("%s", token); 
-			else if (strcmp(token, prev_token) != 0)
-				printf(" %s", token); 
+		while (word != NULL) { 
+			if (prev_word == NULL)
+				printf("%s", word); 
+			else if (strcmp(word, prev_word) != 0)
+				printf(" %s", word); 
 
-			prev_token = token;
-			token = strtok(NULL, " "); 
+			prev_word = word;
+			word = strtok(NULL, " "); 
 		} 
 	}
 
